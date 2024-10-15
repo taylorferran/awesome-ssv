@@ -3,10 +3,12 @@
 ## Run the tool 
 
 In the project directory, you can run:
-### `npm i`
-### `npm start`
+``` bash
+npm i
+npm start
+```
 
-## Code walkthrough 
+## Code walkthrough 
 
 We start by defining the Subgraph URL, this is where we will send the request to.
 
@@ -88,4 +90,4 @@ for (const operatorIdList of operatorIdArray) {
     });
 ```
 
-The rest of the code contained within the for loop is the programmatic version of the (Cluster Balance Formula)[https://docs.ssv.network/learn/stakers/clusters/cluster-balance#cluster-balance-formula].
+The rest of the code contained within the for loop is the programmatic version of the [Cluster Balance Formula](https://docs.ssv.network/learn/stakers/clusters/cluster-balance#cluster-balance-formula) which can be reused.

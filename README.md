@@ -15,7 +15,7 @@ Each directory below contains a tool built with SSVs tooling and resources, each
 
 ## Code sections 
 
-### Subgraph query usage
+### Subgraph query usage
 - [Create 'get cluster data' GraphQL query](./get-cluster-balance/src/SSVClusterBalanceFetcher.js#L25)
 - [Send request to Subgraph](./get-cluster-balance/src/SSVClusterBalanceFetcher.js#L91)
 - [Create 'get validator data' GraphQL query and send to Subgraph](./verify-keyshares/src/subgraph.ts#L11)
@@ -25,15 +25,9 @@ Each directory below contains a tool built with SSVs tooling and resources, each
 You can **read the full documentation** at [docs.ssv.network](https://docs.ssv.network/).
 
 ### Contact
-
-The best way is via discord channel [#devs-support](https://discord.com/channels/723834989506068561/766640777815523330)
+[#devs-support in our Discord channel](https://discord.com/invite/ssvnetworkofficial)
 
 
 ### Suggest improvements
 
 If you have any thoughts on how to improve this repo, **open an issue** and share it in the `#dev-support channel`.
-
-
-## LICENSE
-
-	MIT License
